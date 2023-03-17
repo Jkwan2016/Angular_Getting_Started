@@ -15,11 +15,13 @@ import { ProductListComponent } from './product-list/product-list.component';
       { path: '', component: ProductListComponent },
     ])
   ],
+
   declarations: [
     AppComponent,
     TopBarComponent,
     ProductListComponent
   ],
+  
   bootstrap: [
     AppComponent
   ]
